@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#main {
+    background-image: url('./guru.jpg');
+    width: 1024px;
+    height: 684px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    /* Vertical align */
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#answer {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    margin: 215px 20px 0 0;
+    padding: 10px;
+    width: 60%;
+    height: 90%;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+    background-color: transparent;
+    color: transparent;
+}
+#divquestion {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: flex-end;
+}
+#question {
+    display: inline;
+    width:60%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.2rem;
+    font-family: inherit;
+    background: transparent;
+}
+#labelq {
+    display: inline;
+    width:20%;
+}
+#controls {
+    display: flex;
+    width: 100%;
+    margin: 0 20px 100px 20px;
+    align-content: center;
+    justify-content: center;
+    background-color: #ffffffb0;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3px 14px;
+/*   font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif; */
+  border-radius: 6px;
+  border: none;
+  background: #6E6D70;
+  box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: #DFDEDF;
+  user-select: none;
+/*   -webkit-user-select: none; */
+  touch-action: manipulation;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.button:hover, .button:focus {
+  box-shadow: 1px 1px rgba(30, 30, 30, 0.5);
+  transform: perspective(10px);
+}
+
+footer {
+    font-size: 0.8rem;
+    background-color: #ffffff26;
+    border-radius: 3px;
+    padding: 0 5px;
+    cursor: pointer;
+    font-style: italic;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}

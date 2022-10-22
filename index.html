@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <title>O Guru qye tudo sabe! (by Jeiks)</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="guru.css">
+    <script src="guru.js"></script>
+<!--
+    Desenvolvido por Jacson Rodrigues Correia da Silva <jacsonrcsilva@gmail.com>
+    para a disciplina de Inteligência Artificial.
+    !!! Não me responsabilizo pela sua utilização. !!!
+-->
+</head>
+<body>
+    
+    <div id='main'>
+    <div id='answer' onclick='visibilidadeResposta(false)'>
+        
+    </div>
+    <div id='divquestion'>
+        <div id='controls'>
+            <label for='question' id='labelq'>Digite a pergunta:</label>
+            <input type='text' id='question' autofocus>
+            <button class='button' role="button" onclick="chamarGuru()">&#x3e;</button>
+        </div>
+        <script>
+            question.onkeydown=detectspecialkeys;
+            question.onkeypress=controlGuru;
+        </script>
+    </div>
+    <footer>
+        <a href='mailto:jacsonrcsilva@gmail.com'>
+            Jacson Rodrigues Correia da Silva &lt;jacsonrcsilva@gmail.com&gt;
+        </a>
+    </footer>
+    </div>
+</body>
+</html>
