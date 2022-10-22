@@ -1,4 +1,5 @@
-# Guru: que tudo sabe!
+# O Guru que tudo sabe!
+![guru](screenshot.jpg)
 Sistema desenvolvido para a disciplina de Inteligência Artificial, mas somente para fins educacionais.
 
 Ele **não** possui nenhuma inteligência artificial incorporada e somente foi desenvolvido para discussão em sala de aula.
@@ -10,5 +11,7 @@ Ele **não** possui nenhuma inteligência artificial incorporada e somente foi d
   - Assim, nesse momento, você deve digitar a resposta da futura pergunta. A resposta será armazenada internamente.
   - Após digitar a resposta, pressione novamente CTRL+SHIFT.
   - Então, termine de digitar a pergunta e pressione ENTER. Ele exibirá a resposta que você digitou antes.
+ 
+Como a pergunta padrão sempre vai aparecer (tamanho dependente de sua resposta), forneça como desculpa ao seu/sua colega que o Guru deve ser bajulado para dar a resposta certa. ;)
  
 **!!! Obs.: Não me responsabilizo pela utilização desse sistema. !!!**
